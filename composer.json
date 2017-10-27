@@ -1,0 +1,26 @@
+{
+  "name": "stadnicki/psync",
+  "author": "Tomasz Stadnicki",
+  "description": "PSync -- PHP client library for Sync Gateway",
+  "minimum-stability": "stable",
+  "license": "mit",
+  "autoload": {
+    "psr-4": {
+      "Stadnicki\\Psync\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/psr7": "1.*",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  
+  "suggest": {
+    "guzzlehttp/guzzle": "6.*"
+  },
+  "require-dev": {
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
